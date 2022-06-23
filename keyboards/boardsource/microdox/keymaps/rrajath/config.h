@@ -32,10 +32,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
+#define COMBO_TERM 15
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 125
+#define TAPPING_TERM 150
 #define AUTO_SHIFT_TIMEOUT TAPPING_TERM
 #define NO_AUTO_SHIFT_ALPHA
 
