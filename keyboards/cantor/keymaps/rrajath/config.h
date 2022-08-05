@@ -35,7 +35,7 @@
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 150
+#define TAPPING_TERM 125
 #define AUTO_SHIFT_TIMEOUT TAPPING_TERM
 #define NO_AUTO_SHIFT_ALPHA
 
